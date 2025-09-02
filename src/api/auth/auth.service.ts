@@ -55,7 +55,7 @@ export class AuthService {
         lastName: registerUserDto.lastname,
         email: registerUserDto.email,
         avatarUrl: null,
-        user: savedUser,
+        user: savedUser
       });
 
       await this.profileRepository.save(profile);
